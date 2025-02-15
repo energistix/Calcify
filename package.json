@@ -16,6 +16,8 @@
     "vite": "^6.1.0"
   },
   "dependencies": {
-    "mathjs": "^14.2.1"
+    "@types/bun": "^1.2.2",
+    "mathjs": "^14.2.1",
+    "webview-bun": "^2.3.0"
   }
 }
