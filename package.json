@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "buildApp": "bun run buildWebviewPage.ts && bun build webView.ts --compile --outfile dist/calcify "
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
